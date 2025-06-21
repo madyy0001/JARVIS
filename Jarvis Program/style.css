@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  font-family: Arial, sans-serif;
+ background-image: url(212508.gif);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ min-height: 100vh;
+ display: grid;
+ place-items: center;
+}
+
+.container {
+  max-width: 600px;
+  display: grid;
+  place-items: center;
+}
+
+.header {
+  text-align: center;
+}
+
+h1 {
+  letter-spacing: 20px;
+  color: rgb(0, 208, 255);
+  font-size: 80px;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 20px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.content {
+  max-width: 200px;
+  background: rgb(54, 134, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 5px 16px;
+}
+
+.content .talk {
+  border: none;
+  background: none;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer
+}
